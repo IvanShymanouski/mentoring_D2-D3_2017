@@ -1,0 +1,7 @@
+E:\work\mentoring_D1-D2_2017\Expression_And_IQueryable\ExpressionAndIQueryable\bin\Debug\ExpressionAndIQueryable.dll
+E:\work\mentoring_D1-D2_2017\Expression_And_IQueryable\ExpressionAndIQueryable\bin\Debug\ExpressionAndIQueryable.pdb
+E:\work\mentoring_D1-D2_2017\Expression_And_IQueryable\ExpressionAndIQueryable\obj\Debug\ExpressionAndIQueryable.csprojResolveAssemblyReference.cache
+E:\work\mentoring_D1-D2_2017\Expression_And_IQueryable\ExpressionAndIQueryable\obj\Debug\ExpressionAndIQueryable.dll
+E:\work\mentoring_D1-D2_2017\Expression_And_IQueryable\ExpressionAndIQueryable\obj\Debug\ExpressionAndIQueryable.pdb
+E:\work\mentoring_D1-D2_2017\Expression_And_IQueryable\ExpressionAndIQueryable\bin\Debug\Newtonsoft.Json.dll
+E:\work\mentoring_D1-D2_2017\Expression_And_IQueryable\ExpressionAndIQueryable\bin\Debug\Newtonsoft.Json.xml

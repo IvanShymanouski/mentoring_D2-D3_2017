@@ -1,0 +1,11 @@
+E:\work\mentoring_D1-D2_2017\Expression_And_IQueryable\ExpressionAndIQueryableTests\bin\Debug\ExpressionAndIQueryableTests.dll
+E:\work\mentoring_D1-D2_2017\Expression_And_IQueryable\ExpressionAndIQueryableTests\bin\Debug\ExpressionAndIQueryableTests.pdb
+E:\work\mentoring_D1-D2_2017\Expression_And_IQueryable\ExpressionAndIQueryableTests\bin\Debug\ExpressionAndIQueryable.dll
+E:\work\mentoring_D1-D2_2017\Expression_And_IQueryable\ExpressionAndIQueryableTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\work\mentoring_D1-D2_2017\Expression_And_IQueryable\ExpressionAndIQueryableTests\bin\Debug\ExpressionAndIQueryable.pdb
+E:\work\mentoring_D1-D2_2017\Expression_And_IQueryable\ExpressionAndIQueryableTests\obj\Debug\ExpressionAndIQueryableTests.csprojResolveAssemblyReference.cache
+E:\work\mentoring_D1-D2_2017\Expression_And_IQueryable\ExpressionAndIQueryableTests\obj\Debug\ExpressionAndIQueryableTests.dll
+E:\work\mentoring_D1-D2_2017\Expression_And_IQueryable\ExpressionAndIQueryableTests\obj\Debug\ExpressionAndIQueryableTests.pdb
+E:\work\mentoring_D1-D2_2017\Expression_And_IQueryable\ExpressionAndIQueryableTests\bin\Debug\Newtonsoft.Json.dll
+E:\work\mentoring_D1-D2_2017\Expression_And_IQueryable\ExpressionAndIQueryableTests\bin\Debug\Newtonsoft.Json.xml
+E:\work\mentoring_D1-D2_2017\Expression_And_IQueryable\ExpressionAndIQueryableTests\bin\Debug\ExpressionAndIQueryableTests.dll.config
