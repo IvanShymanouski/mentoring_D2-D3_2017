@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerManagement", "PowerManagement\PowerManagement.csproj", "{46154964-6D21-4C19-AA36-D415FCFE114B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerManagementCOM", "PowerManagementCOM\PowerManagementCOM.csproj", "{8A6E2D29-03C0-45F1-975F-30BF0469FCA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerManagementTests", "PowerManagementTests\PowerManagementTests.csproj", "{F52741E1-E594-4FBA-AE62-1BC0DDDB71E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46154964-6D21-4C19-AA36-D415FCFE114B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46154964-6D21-4C19-AA36-D415FCFE114B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46154964-6D21-4C19-AA36-D415FCFE114B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46154964-6D21-4C19-AA36-D415FCFE114B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A6E2D29-03C0-45F1-975F-30BF0469FCA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A6E2D29-03C0-45F1-975F-30BF0469FCA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A6E2D29-03C0-45F1-975F-30BF0469FCA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A6E2D29-03C0-45F1-975F-30BF0469FCA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F52741E1-E594-4FBA-AE62-1BC0DDDB71E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F52741E1-E594-4FBA-AE62-1BC0DDDB71E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F52741E1-E594-4FBA-AE62-1BC0DDDB71E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F52741E1-E594-4FBA-AE62-1BC0DDDB71E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
