@@ -49,47 +49,46 @@ namespace CentralControlService
         public void ProcessFiles()
         {
             var chunks = new List<Chunk>();
-            var count = 1;
-            using (var serverQueue = new MessageQueue(Settings.ServerQueueName))
+            int count;
+
+            do
             {
-                serverQueue.Formatter = new XmlMessageFormatter(new Type[] { typeof(Chunk) });
-                do
+                count = 0;
+                using (var serverQueue = new MessageQueue(Settings.ServerQueueName))
                 {
+                    serverQueue.Formatter = new XmlMessageFormatter(new Type[] { typeof(Chunk) });
+
                     var enumerator = serverQueue.GetMessageEnumerator2();
 
                     while (enumerator.MoveNext())
                     {
-                        var body = enumerator.Current.Body;
-                        if (body is Chunk)
+                        var chunk = enumerator.Current.Body as Chunk;
+                        if (chunk != null)
                         {
-                            var chunk = (Chunk)body;
                             chunks.Add(chunk);
 
                             if (chunk.Position == chunk.Size)
                             {
-                                //не записываем, если какой-то chunk потерялся
-                                if (chunk.Size == count)
+                                //выбрасываем, если какой-то chunk потерялся
+                                if (chunk.Size == chunks.Count)
                                 {
                                     _pdfHelper.SaveDocument(_processDirectory, chunks);
                                 }
-                                count = 0;
                                 chunks.Clear();
                             }
-
-                            count++;
                         }
+                        count++;
                     }
 
-                    for (int i = 1; i < count; i++)
+                    for(var i=0; i<count; i++)
                     {
                         serverQueue.Receive();
                     }
 
                     Thread.Sleep(_currentTimeout);
-
                 }
-                while (!_stopWaitEvent.WaitOne(0));
             }
+            while (!_stopWaitEvent.WaitOne(0));
         }
 
         public void SettingsMonitorService()
