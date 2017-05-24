@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralControlService", "CentralControlService\CentralControlService.csproj", "{89AC1BCE-F54D-493F-988E-903A78D089C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E4ED88E1-D86A-417D-9665-21FCF22A9256}"
+	ProjectSection(SolutionItems) = preProject
+		install.cmd = install.cmd
+		timeout.xml = timeout.xml
+		uninstall.cmd = uninstall.cmd
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfProcessor", "PdfProcessor\PdfProcessor.csproj", "{DF6B9405-297A-4447-A11C-6089F5C8587D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{835813E1-A3DE-42A3-9224-EAF1ECD31745}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocAutoMoveService", "DocAutoMoveService\DocAutoMoveService.csproj", "{27818237-E1DE-44B4-9A4D-F24A7E288E97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89AC1BCE-F54D-493F-988E-903A78D089C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89AC1BCE-F54D-493F-988E-903A78D089C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89AC1BCE-F54D-493F-988E-903A78D089C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89AC1BCE-F54D-493F-988E-903A78D089C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF6B9405-297A-4447-A11C-6089F5C8587D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF6B9405-297A-4447-A11C-6089F5C8587D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF6B9405-297A-4447-A11C-6089F5C8587D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF6B9405-297A-4447-A11C-6089F5C8587D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{835813E1-A3DE-42A3-9224-EAF1ECD31745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{835813E1-A3DE-42A3-9224-EAF1ECD31745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{835813E1-A3DE-42A3-9224-EAF1ECD31745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{835813E1-A3DE-42A3-9224-EAF1ECD31745}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27818237-E1DE-44B4-9A4D-F24A7E288E97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27818237-E1DE-44B4-9A4D-F24A7E288E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27818237-E1DE-44B4-9A4D-F24A7E288E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27818237-E1DE-44B4-9A4D-F24A7E288E97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
