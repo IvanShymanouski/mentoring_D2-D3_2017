@@ -1,0 +1,20 @@
+﻿@model CodeRewriting.Models.SquaringResult
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>Index</h2>
+@using (Html.BeginForm())
+{
+    @Html.LabelFor(m => Model.Value, "Value: ");<br />
+    @Html.EditorFor(m => Model.Value);<br />
+
+    @Html.LabelFor(m => Model.Power, "Power: ");<br />
+    @Html.EditorFor(m => Model.Power);<br />
+
+    @Html.LabelFor(m => Model.Result, "Result:");<br />
+    @Html.DisplayTextFor(m => Model.Result);<br />
+
+    <input type="submit" value="Evaluate">
+}

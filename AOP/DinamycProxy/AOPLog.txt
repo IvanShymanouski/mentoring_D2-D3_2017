@@ -1,0 +1,4 @@
+2017/06/11 13:30:25.734 - 'Square(Value = 2, Power = 12) = 4096' 
+2017/06/11 13:30:39.348 - 'Square(Value = 2, Power = 13) = 8192' 
+2017/06/11 14:27:54.808 - 'started Square(Value = 12, Power = 3)' 
+2017/06/11 14:27:54.838 - 'Result of Square(Value = 12, Power = 3) execution is 1728' 

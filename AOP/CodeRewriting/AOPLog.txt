@@ -1,0 +1,8 @@
+2017/06/11 14:31:11.608 - 'started Square(Value = 12, Power = 0)' 
+2017/06/11 14:31:11.628 - 'Result of Square(Value = 12, Power = 0) execution is 1' 
+2017/06/11 14:31:13.851 - 'started Square(Value = 12, Power = 34)' 
+2017/06/11 14:31:13.855 - 'Result of Square(Value = 12, Power = 34) execution is 4,92223524295203E+36' 
+2017/06/11 14:31:29.424 - 'started Square(Value = 12, Power = 34)' 
+2017/06/11 14:31:29.424 - 'Result of Square(Value = 12, Power = 34) execution is 4,92223524295203E+36' 
+2017/06/11 14:31:47.430 - 'started Square(Value = 12, Power = 34)' 
+2017/06/11 14:31:47.435 - 'Result of Square(Value = 12, Power = 34) execution is 4,92223524295203E+36' 
